@@ -19,6 +19,11 @@
 }
 
 @media (max-width: 640px){
+    
+    ul {
+        flex-direction: column;
+    }
+
     .logo {
         font-size: 1.2rem
     }
@@ -28,8 +33,8 @@
         height: 40px;
     }
 
-    ul {
-        flex-direction: column;
+    .about-img img {
+        border-bottom-right-radius: 0;
     }
 
     .about-movie-mall {
