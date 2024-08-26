@@ -1,0 +1,52 @@
+@media (min-width: 641px) and (max-width: 1023px){
+    .about-movie-mall {
+        grid-template-columns: 100%;
+        row-gap: 4rem;
+        column-gap: 0rem;
+    }
+
+    .about-img img {
+        border-bottom-right-radius: 0;
+    }
+
+    .products-cards {
+        grid-template-columns: repeat(auto-fill, minmax(calc(100% / 3), 1fr));
+    }
+
+    footer {
+        margin-top: 12rem;
+    }
+}
+
+@media (max-width: 640px){
+    .logo {
+        font-size: 1.2rem
+    }
+
+    .logo svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    .about-movie-mall {
+        grid-template-columns: 100%;
+        row-gap: 4rem;
+        column-gap: 0rem;
+    }
+
+    .products-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .product span {
+        height: auto;
+    }
+
+    footer {
+        margin-top: 7rem;
+    }
+}
